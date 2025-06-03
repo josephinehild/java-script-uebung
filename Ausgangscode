@@ -1,0 +1,15 @@
+public class Main {
+ public static void main(String[] args) {
+ // HIER KÖNNTE DEIN CODE STEHEN!
+String text;
+double kommazahl;
+text = "lmao";
+int ganzzahl = 13
+int neueZahl = ganzzahl
+ ///// AB HIER NICHT ÄNDERN /////
+ System.out.println("text: " + text);
+ System.out.println("ganzzahl: " + ganzzahl);
+ System.out.println("neueZahl: " + neueZahl);
+ // System.out.println("kommazahl: " + kommazahl);
+ }
+}
