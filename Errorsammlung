@@ -1,0 +1,54 @@
+import java.util.*;
+
+public class Main {
+ public static void main(String[] args) {
+ // HIER KÖNNTE DEIN CODE STEHEN!
+ String text;
+ double kommazahl;
+ text = "lmao";
+ int ganzzahl = 13;
+ >> neueZahl = ganzzahl; 
+ ///// AB HIER NICHT ÄNDERN /////
+ System.out.println("text: " + text);
+ System.out.println("ganzzahl: " + ganzzahl);
+ System.out.println("neueZahl: " + neueZahl);
+ // System.out.println("kommazahl: " + kommazahl);
+ }
+}
+
+Main.java:10: error: cannot find symbol
+ neueZahl = ganzzahl;
+ ^
+  symbol:   variable neueZahl
+  location: class Main
+Main.java:14: error: cannot find symbol
+ System.out.println("neueZahl: " + neueZahl);
+                                   ^
+  symbol:   variable neueZahl
+  location: class Main
+2 errors
+error: compilation failed
+----------------------------------------------------------------------------------
+import java.util.*;
+
+public class Main {
+ public static void main(String[] args) {
+ // HIER KÖNNTE DEIN CODE STEHEN!
+ String text;
+>> kommazahl;
+ text = "lmao";
+ int ganzzahl = 13;
+ int neueZahl = ganzzahl;
+ ///// AB HIER NICHT ÄNDERN /////
+ System.out.println("text: " + text);
+ System.out.println("ganzzahl: " + ganzzahl);
+ System.out.println("neueZahl: " + neueZahl);
+ // System.out.println("kommazahl: " + kommazahl);
+ }
+}
+
+Main.java:7: error: not a statement
+ kommazahl;
+ ^
+1 error
+error: compilation failed
